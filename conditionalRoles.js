@@ -22,3 +22,23 @@ switch (user) {
     console.log("Trial user");
     break;
 }
+
+// 1st - you are first
+// 2nd - you are second
+// 3rd - you are third
+
+var user = "3rd";
+switch (user) {
+  case "1st":
+    console.log("you are first");
+    break;
+  case "2nd":
+    console.log("you are second");
+    break;
+  case "3rd":
+    console.log("you are third");
+    break;
+  default:
+    console.log("you are last");
+    break;
+}

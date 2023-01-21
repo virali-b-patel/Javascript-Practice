@@ -27,9 +27,24 @@ var getUserRole = function (name, role) {
     // break;
   }
 };
-
 console.log(getUserRole("virali", "testprep"));
-
 var getRole = getUserRole("vijay", "user");
-
 console.log(getRole);
+
+var getUserNumber = function (name, number) {
+  switch (number) {
+    case "1st":
+      return `${name} is first`;
+    case "2nd":
+      return `${name} is second`;
+    case "3rd":
+      return `${name} is third`;
+    case "4th":
+      return `${name} is forth`;
+    default:
+      return `${name} is last`;
+  }
+};
+console.log(getUserNumber("vijay", "1st"));
+var userName = getUserNumber("virali", "2nd");
+console.log(userName);

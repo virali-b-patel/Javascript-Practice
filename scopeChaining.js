@@ -16,5 +16,10 @@ function sayName() {
     console.log("line 16", name);
   }
 }
-
 sayName();
+
+var name = "viru";
+function sayMe() {
+  console.log("My Nickname is", name);
+}
+sayMe();

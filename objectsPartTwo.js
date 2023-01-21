@@ -12,8 +12,18 @@ var user = {
     return `${this.firstName} is enrolled in total of ${this.courseList.length} course`;
   },
 };
-var courseList = true;
+// var courseList = true;
 console.log(user.firstName);
-user.buyCourse("React JS course");
+r.buyCourse("React JS course");
 user.buyCourse("Angular course");
 console.log(user.getCourseCount());
+
+function arrayLength(p) {
+  console.log(p);
+}
+
+function myarr(v) {
+  arrayLength(v);
+}
+
+myarr(4);

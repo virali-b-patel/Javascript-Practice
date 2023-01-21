@@ -7,7 +7,7 @@ var user = {
 };
 console.log(user);
 console.log(user.firstName);
-console.log(user["latName"]);
+console.log(user["lastName"]);
 
 console.log(user.loginCount);
 user.loginCount = 40;
